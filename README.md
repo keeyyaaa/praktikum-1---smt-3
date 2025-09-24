@@ -29,7 +29,7 @@ Kelas: TI.24.A.5
 ```
 
 ### ```hasil```
-![foto]()
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230800.png)
 #### ```Penjelasan```
 Tag dasar ```<p>``` adalah untuk menambahkan paragraf. 
 
