@@ -56,12 +56,25 @@ Tag dasar ```<p>``` adalah untuk menambahkan paragraf.
 #### Penjelasan atribut
 
 ### 3. Memformat teks
-![foto]()
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231927.png)
 
 ### Hasil
-![foto]()
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231940.png)
 
 #### Penjelasan
 
 ### 4. Menyisipkan gambar
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20233652.png)
 
+![foto](
+
+### Hasil
+![foto]()
+
+### Mengubah ukuran gambar
+![foto](
+
+### Hasil
+![foto]()
+
+### 5. Menambahkan hyperlink
