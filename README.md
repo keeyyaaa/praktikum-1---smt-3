@@ -11,7 +11,7 @@ Kelas: TI.24.A.5
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230008.png)
 
 ### ```hasil```
-![foto]()
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230035.png)
 
 ### membuat paragraf
 ```html
