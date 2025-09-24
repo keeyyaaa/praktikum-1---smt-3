@@ -147,4 +147,89 @@ Pemformatan teks dalam HTML digunakan untuk memberikan gaya khusus pada tulisan 
 ### Hasil
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20232557.png)
 
+#### Penjelasan
+```<h3>``` dipakai untuk sub-subjudul.
+
+```<img>``` digunakan untuk menampilkan gambar:
+
+```src="logo kampus.jpg"``` menunjukkan nama file gambar.
+
+```width="200"``` mengatur lebar gambar 200 piksel.
+
+```title="Logo Universitas Pelita Bangsa"``` menambahkan teks tooltip yang muncul ketika kursor diarahkan ke gambar.
+
 ## 5. Menambahkan hyperlink
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20234853.png)
+
+### Hasil
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20234848.png)
+
+#### Penjelasan
+
+```<nav>``` digunakan untuk membuat menu navigasi.
+
+```<a>``` adalah hyperlink:
+
+Menuju halaman utama ```(lab1_tag_dasar.html).```
+
+Menuju halaman kedua ```(lab1_halaman2.html).```
+
+Menuju halaman eksternal (Google).
+
+```<hr>``` menambahkan garis horizontal sebagai pemisah antar bagian.
+
+## Penjelasan langkah -  langkah Praktikum HTML Dasar
+
+1. Membuat Struktur Dasar HTML
+   
+Pertama, buat file baru dengan nama ```lab1_tag_dasar.html.``` Di dalam file ini tuliskan struktur dasar HTML yang terdiri dari ```<!DOCTYPE html>, <html>, <head>, <title>, dan <body>.```
+
+2. Membuat Judul dan Paragraf
+Gunakan ```<h1>``` untuk judul utama dan ```<h2>``` untuk subjudul. Setelah itu tambahkan paragraf menggunakan ```<p>```. Paragraf bisa diberi atribut ```align``` (left, right, center, justify) untuk mengatur posisi teks.
+
+3. Memformat Teks
+Terapkan tag pemformatan seperti ```<b>``` (tebal), ```<i>``` (miring), ```<u>``` (garis bawah), dan ```<mark>``` (highlight). Hal ini bertujuan agar teks lebih bervariasi dan mudah dibaca.
+
+4. Menyisipkan Gambar
+Gunakan tag ```<img>``` untuk menampilkan gambar. Tambahkan atribut src untuk menentukan file gambar, width untuk ukuran, dan title untuk memberikan deskripsi singkat. Pastikan file gambar berada di folder yang sama dengan file HTML.
+
+5. Menyimpan dan Menjalankan di Browser
+Setelah selesai menulis kode, simpan file dan buka menggunakan browser (Chrome, Firefox, dll). Jika ada perubahan, lakukan refresh untuk melihat hasil terbaru.
+
+6. Membuat Halaman Kedua
+Buat file baru dengan nama ```lab1_halaman2.html``` sebagai halaman tambahan. Isi dengan judul dan paragraf sederhana, lalu hubungkan ke halaman utama menggunakan hyperlink.
+
+7. Menambahkan Navigasi (Hyperlink)
+Tambahkan menu navigasi menggunakan tag ```<nav>```. Di dalamnya gunakan ```<a>``` untuk membuat link ke halaman lain, baik itu halaman HTML lain yang kita buat, maupun website eksternal seperti Google.
+
+## Soal dan jawaban pertanyaan
+
+1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
+   
+Ketika terjadi kesalahan penulisan tag, browser biasanya tetap berusaha menampilkan halaman. Namun hasilnya bisa berbeda dari yang diharapkan. Misalnya, jika tag tidak ditutup dengan benar, struktur halaman menjadi tidak rapi. Jadi walaupun tidak selalu muncul error secara langsung, tampilan halaman bisa kacau.
+
+2. Apa perbedaan dari tag <p> dengan tag ```<br>```, berikan penjelasannya!
+
+```<p>``` digunakan untuk membuat paragraf baru. Tag ini memberi jarak (spasi) sebelum dan sesudah teks sehingga terlihat sebagai blok teks. Sedangkan,
+
+```<br>``` digunakan untuk membuat baris baru (line break) tanpa menambahkan spasi antar paragraf. Jadi hanya memindahkan teks ke baris berikutnya.
+
+3. Apa perbedaan atribut ```title``` dan ```alt``` pada tag ```<img>```, berikan penjelasannya!
+
+```alt``` (alternative text) adalah teks pengganti yang akan muncul jika gambar gagal dimuat. Atribut ini juga membantu aksesibilitas (screen reader).
+
+```title``` adalah teks yang muncul sebagai tooltip saat kursor diarahkan ke gambar.
+
+4. Untuk mengatur ukuran gambar, digunakan atribut ```width``` dan ```height```. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
+   
+Sebaiknya tidak mengisi keduanya secara manual. Lebih baik hanya mengatur salah satu atribut, misalnya ```width``` saja. Dengan begitu, browser akan otomatis menyesuaikan ```height``` agar gambar tetap proporsional (tidak gepeng atau melar).
+
+6. Pada link tambahkan atribut target dengan nilai atribut bervariasi ```(_blank, _self, _top, _parent)```, apa yang terjadi pada masing-masing nilai atribut tersebut?
+
+```_blank``` → membuka link di tab atau jendela baru.
+
+```_self``` → membuka link di tab yang sama (default).
+
+```_top``` → membuka link di frame paling atas (jika menggunakan frame).
+
+```_parent``` → membuka link di frame induk (parent) dari frame saat ini.
