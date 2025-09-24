@@ -34,7 +34,7 @@ Kelas: TI.24.A.5
 Tag dasar ```<p>``` adalah untuk menambahkan paragraf. 
 
 ### Mencoba atribut paragraf
-![foto]()
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231035.png)
 
 ### Hasil
 ![foto]()
