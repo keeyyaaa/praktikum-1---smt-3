@@ -13,13 +13,38 @@ Kelas: TI.24.A.5
 ### ```hasil```
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230035.png)
 
+#### Penjelasan
+1. ```<!DOCTYPE html>```
+
+adalah deklarasi yang ditempatkan di baris pertama sebuah dokumen HTML. Fungsinya untuk memberi tahu browser bahwa dokumen tersebut menggunakan standar HTML5. Dengan adanya deklarasi ini, browser dapat menampilkan halaman web sesuai aturan yang berlaku.
+
+2. ```html```
+Tag ```<html>``` merupakan tag utama yang membungkus seluruh isi dokumen HTML. Semua elemen, baik bagian <head> maupun ```<body>```, harus berada di dalam tag ini. Bisa dibilang, ```<html>``` adalah pondasi atau kerangka besar dari sebuah halaman web.
+
+3. ```<head> ... </head>```
+Tag ```<head>``` berisi informasi tentang halaman web, bukan isi konten yang ditampilkan ke pengguna. Di bagian ini biasanya terdapat:
+
+```<title>``` → untuk menampilkan judul halaman di tab browser.
+
+```<meta>``` → menyimpan informasi tambahan seperti karakter encoding.
+
+```<link>``` → menghubungkan dokumen dengan file CSS.
+
+```<script>``` → menambahkan atau menghubungkan kode JavaScript.
+
+4. ```<title> ... </title>```
+Tag ```<title>``` berada di dalam ```<head>```. Isinya akan tampil sebagai judul pada tab browser. Walaupun tidak muncul langsung di isi halaman, tag ini penting karena juga memengaruhi SEO (Search Engine Optimization) dan memudahkan identifikasi halaman.
+
+5. ```<body> ... </body>```
+Tag ```<body>``` berisi seluruh konten utama halaman web yang terlihat oleh pengguna di browser. Semua teks, paragraf, gambar, hyperlink, tabel, maupun elemen interaktif lainnya ditulis di dalam tag ini.
+
 ### Membuat modul praktikum Pemrograman web
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230258.png)
 
 ### Hasil
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230310.png)
 
-### 1. Membuat paragraf
+## 1. Membuat paragraf
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230812.png)
 ```html
 <!-- Ini adalah paragraf pertama --> 
@@ -31,8 +56,17 @@ Kelas: TI.24.A.5
 ### ```hasil```
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230800.png)
 #### ```Penjelasan```
-Tag dasar ```<p>``` adalah untuk menambahkan paragraf. 
+1. Tag dasar ```<p>``` adalah untuk menambahkan paragraf.
 
+2. Fungsi Komentar ```<!-- ... -->```
+Fungsi utama komentar adalah:
+
+- Memberi catatan atau penjelasan tambahan di dalam kode, supaya lebih mudah dipahami ketika dibaca ulang.
+
+- Menyembunyikan bagian kode sementara tanpa harus menghapusnya, biasanya dilakukan saat proses uji coba.
+
+- Memudahkan kerja tim (jika ada), karena setiap orang bisa paham maksud dari potongan kode tertentu lewat catatan yang ditulis.
+  
 ### Mencoba atribut paragraf
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231035.png)
 
@@ -40,8 +74,19 @@ Tag dasar ```<p>``` adalah untuk menambahkan paragraf.
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231013.png)
 
 #### Penjelasan atribut
+```html
+<h3>Perataan Teks</h3>
 
-### 2. Menambahkan judul
+<p align="left">Ini teks rata kiri.</p>
+<p align="right">Ini teks rata kanan.</p>
+<p align="center">Ini teks rata tengah.</p>
+<p align="justify">
+    Ini teks rata kiri-kanan. Kalau kalimatnya panjang, 
+    maka tepinya akan terlihat lurus di kiri dan kanan.
+</p>
+```
+
+## 2. Menambahkan judul
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231410.png)
 
 ```html
@@ -55,15 +100,40 @@ Tag dasar ```<p>``` adalah untuk menambahkan paragraf.
 
 #### Penjelasan atribut
 
-### 3. Memformat teks
+Dalam HTML, heading digunakan untuk membuat judul dan subjudul pada sebuah halaman web. Heading ini ditandai dengan tag ```<h1>``` sampai ```<h6>```, di mana:
+
+```<h1>``` adalah judul utama (paling besar).
+
+```<h2>``` adalah subjudul dari ```<h1>```.
+
+```<h3>``` adalah subjudul dari ```<h2>```, dan seterusnya sampai ```<h6>```.
+
+Semakin besar angka pada tag heading, semakin kecil ukuran teks yang ditampilkan di browser.
+
+## 3. Memformat teks
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231927.png)
 
 ### Hasil
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231940.png)
 
 #### Penjelasan
+Pemformatan Teks pada HTML
 
-### 4. Menyisipkan gambar
+Pemformatan teks dalam HTML digunakan untuk memberikan gaya khusus pada tulisan sehingga lebih jelas dan mudah dipahami. Beberapa tag yang sering dipakai antara lain:
+
+1. ```<b>``` → membuat teks menjadi tebal.
+
+2. ```<strong>``` → menandai teks yang dianggap penting (biasanya juga tebal).
+
+3. ```<i>``` → membuat teks miring.
+
+4. ```<em>``` → menandai teks yang diberi penekanan (biasanya miring).
+
+5. ```<u>``` → menambahkan garis bawah pada teks.
+
+6. ```<mark>``` → memberi efek highlight pada teks (seperti stabilo).
+   
+## 4. Menyisipkan gambar
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20233652.png)
 
 ![foto](
@@ -77,4 +147,4 @@ Tag dasar ```<p>``` adalah untuk menambahkan paragraf.
 ### Hasil
 ![foto]()
 
-### 5. Menambahkan hyperlink
+## 5. Menambahkan hyperlink
