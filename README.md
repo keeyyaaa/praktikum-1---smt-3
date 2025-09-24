@@ -13,6 +13,12 @@ Kelas: TI.24.A.5
 ### ```hasil```
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230035.png)
 
+### membuat struktur
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230258.png)
+
+### Hasil
+![foto]()
+
 ### membuat paragraf
 ```html
 <!-- Ini adalah paragraf pertama --> 
@@ -22,8 +28,7 @@ Kelas: TI.24.A.5
 ```
 
 ### ```hasil```
-![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230258.png)
-
+![foto]()
 ### ```Penjelasan```
 Tag dasar ```<p>``` adalah untuk menambahkan paragraf. 
 
