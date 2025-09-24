@@ -20,7 +20,7 @@ Kelas: TI.24.A.5
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230310.png)
 
 ### 1. Membuat paragraf
-![foto]()
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230812.png)
 ```html
 <!-- Ini adalah paragraf pertama --> 
 <p>Halo ini kia, kami sedang belajar HTML dasar, pada matakuliah Pemrograman Web di Prodi Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.</p> 
