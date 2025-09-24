@@ -136,15 +136,15 @@ Pemformatan teks dalam HTML digunakan untuk memberikan gaya khusus pada tulisan 
 ## 4. Menyisipkan gambar
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20233652.png)
 
-![foto](
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20232447.png)
 
 ### Hasil
-![foto]()
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20232435.png)
 
 ### Mengubah ukuran gambar
-![foto](
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20232608.png)
 
 ### Hasil
-![foto]()
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20232557.png)
 
 ## 5. Menambahkan hyperlink
