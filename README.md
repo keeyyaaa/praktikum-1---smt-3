@@ -37,11 +37,13 @@ Tag dasar ```<p>``` adalah untuk menambahkan paragraf.
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231035.png)
 
 ### Hasil
-![foto]()
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231013.png)
 
 #### Penjelasan atribut
 
 ### 2. Menambahkan judul
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231410.png)
+
 ```html
 <!-- judul paragraf pertama --> 
 <h1>Belajar Dasar HTML</h1> 
@@ -49,7 +51,7 @@ Tag dasar ```<p>``` adalah untuk menambahkan paragraf.
 <h2>Paragraf pada HTML</h2>
 ```
 ### Hasil
-![foto]()
+![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20231358.png)
 
 #### Penjelasan atribut
 
