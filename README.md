@@ -7,7 +7,7 @@ NIM: 312410554
 
 Kelas: TI.24.A.5
 
-### Membuat file baru ```lab1_tag_dasar.html
+### Membuat file baru ```lab1_tag_dasar.html```
 ![foto](https://github.com/keeyyaaa/praktikum-1---smt-3/blob/main/Screenshot%202025-09-24%20230008.png)
 
 ### ```hasil```
